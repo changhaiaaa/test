@@ -2,7 +2,7 @@ package com.dahua.bean
 
 import com.dahua.utils.NumFormat
 
-class LogBean(
+case class LogBean(
                val sessionid: String,
                val advertisersid: Int,
                val adorderid: Int,
@@ -17,7 +17,7 @@ class LogBean(
                val requestdate: String,
                val ip: String,
                val appid: String,
-               val appname: String,
+               var appname: String,
                val uuid: String,
                val device: String,
                val client: Int,
