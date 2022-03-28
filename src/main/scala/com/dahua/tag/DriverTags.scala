@@ -4,6 +4,7 @@ import org.apache.spark.sql.Row
 
 object DriverTags extends TagTrait {
   override def makeTags(args: Any*): Map[String, Int] = {
+
     var map = Map[String, Int]()
     val row: Row = args(0).asInstanceOf[Row]
     // 操作系统类型。

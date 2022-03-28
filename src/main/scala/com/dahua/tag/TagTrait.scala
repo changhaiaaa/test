@@ -2,5 +2,5 @@ package com.dahua.tag
 
 trait TagTrait {
 
-  def makeTages(args:Any*):Map[String,Int]
+  def makeTags(args:Any*):Map[String,Int]
 }
